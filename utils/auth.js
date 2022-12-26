@@ -1,11 +1,12 @@
+// resourced from Module 14 MVC: Challenge 24
+
 const withAuth = (req, res, next) => {
-    // If the user is not logged in, kick out to login
-    if (!req.session.logged_in) {
-      res.redirect('/login');
-    } else {
-      // Else, they are signed in, continue
-      next();
-    }
-  };
-  
-  module.exports = withAuth;
+  // If the user isn't logged in, redirect them to the login route
+  if (!req.session.logged_in) {
+    res.redirect('/login');
+  } else {
+    next();
+  }
+};
+
+module.exports = withAuth;
