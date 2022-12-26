@@ -2,7 +2,7 @@
     <div class="title">
         <h2>{{title}}</h2> 
         <p>{{post_text}}</p>
-        <h4 class="userdata">Posted By: {{user.username}} on: <span>{{format_date created_at}}</span></h4>
+        <h4 class="userdata">Posted By: <span class="glyphicon glyphicon-user"></span> {{user.username}} on: <span>{{format_date created_at}}</span></h4>
     </div>
     <div class="meta">
         <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>

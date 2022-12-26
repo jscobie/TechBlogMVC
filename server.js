@@ -18,7 +18,7 @@ const hbs = exphbs.create({ helpers });
 
 // Set up session for sequelize store
 const sess = {
-  secret: 'Secret Super Secrets',
+  secret: 'Super secret secret',
   cookie: {
     expires: 3600000 // 1 hour
     // expires: 30000 // 30 seconds

@@ -13,12 +13,12 @@
 <body>
   <div class="wrapper">
     <header>
-      <h1>
+      <h4>
         <a href="/">TechTalk Blog</a>
-      </h1>
+      </h4>
       <nav>
-        {{#if loggedIn}}
-        <a href="/dashboard"><span class="glyphicon glyphicon-user"></span>{{ username }}'s Dashboard</a>
+        {{#if logged_in}}
+        <a href="/dashboard"><span class="glyphicon glyphicon-user"></span> {{ username }}'s Dashboard</a>
         <button id="logout" class="btn-no-style">logout</button>
         {{else}}
         <a href="/login">login</a>
@@ -29,7 +29,7 @@
       {{{ body }}}
     </main>
     <footer>
-      Replacing Twitter in 2023?
+      Pied Piper Development Team - Aiming to Replace Twitter in 2023?
     </footer>
   </div>
 
@@ -37,6 +37,6 @@
 
 </html>
 
-{{#if loggedIn}}
+{{#if logged_in}}
 <script src="/js/logout.js"></script>
 {{/if}}
