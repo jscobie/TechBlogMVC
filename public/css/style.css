@@ -21,6 +21,10 @@
     color: #3486eb;
   }
   
+  ul {
+    list-style: none
+  }
+  
   button {
     background-color: #225ca3;
     border: 0;
@@ -175,4 +179,12 @@
     justify-content: center;
     padding: 1%;
     font-size: 110%;
+  }
+
+  .userdata {
+    text-align: right
+  }
+
+  .meta {
+    text-align: right
   }
