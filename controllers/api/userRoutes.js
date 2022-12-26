@@ -40,7 +40,7 @@ router.get('/:id', (req, res) => {
         res.status(404).json({ message: 'No user found' });
         return;
       }
-      res.json(dbUserData);
+      res.status(200).json(dbUserData);
     })
     .catch(err => {
       console.log(err);

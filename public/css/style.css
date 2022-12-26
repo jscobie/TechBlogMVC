@@ -8,6 +8,7 @@
     margin: 0;
     font-family: sans-serif;
     color: #333;
+    background: rgb(203, 212, 221);
   }
   
   a {
@@ -126,6 +127,11 @@
     line-height: 150%;
   }
   
+.post-text {
+  font-family: "Arial";
+    font-size:large
+}
+
   .post .title span {
     font-style: italic;
     font-size: 90%;

@@ -65,7 +65,7 @@ router.get('/:id', withAuth, (req, res) => {
         res.status(404).json({ message: 'No post found' });
         return;
       }
-      res.json(dbPostData);
+      res.status(200).json(dbPostData);
     })
     .catch(err => {
       console.log(err);
@@ -105,7 +105,7 @@ router.put('/:id', withAuth, (req, res) => {
         res.status(404).json({ message: 'No post found' });
         return;
       }
-      res.json(dbPostData);
+      res.status(200).json(dbPostData);
     })
     .catch(err => {
       console.log(err);
@@ -126,7 +126,7 @@ router.delete('/:id', withAuth, (req, res) => {
         res.status(404).json({ message: 'No post found' });
         return;
       }
-      res.json(dbPostData);
+      res.status(200).json(dbPostData);
     })
     .catch(err => {
       console.log(err);

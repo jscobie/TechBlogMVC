@@ -68,7 +68,7 @@ router.get('/edit/:id', withAuth, async (req, res) => {
       ]
     });
     const post = dbPostData.get({ plain: true });
-    res.render('editDeletePost', {
+    res.render('edit-post', {
       post,
       logged_in: true,
       username: req.session.username
