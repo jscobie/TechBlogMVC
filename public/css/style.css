@@ -90,6 +90,11 @@
   header h1 {
     font-size: 1em;
   }
+
+  h4 {
+    font-size: 200%;
+    font-weight: bold;
+  }
   
   main {
     flex: 1;
@@ -127,7 +132,7 @@
     line-height: 150%;
   }
   
-.post-text {
+  .post-text {
   font-family: "Arial";
     font-size:large
 }
@@ -194,3 +199,4 @@
   .meta {
     text-align: right
   }
+
