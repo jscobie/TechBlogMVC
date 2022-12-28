@@ -8,7 +8,7 @@
 This project was built to demonstrate an application built using the entire MVC (Model-View-Controller) process which begins our first project as a full stack developer. This requested build is based on a blogging system, like Wordpress. This application was built using technologies including handlebars, node js, mysql, sequelize and other npm packages. The deployed app is loaded to Heroku for assignment submission and completing the assignment of loading a full stack application with database to Heroku.
 
 ### Required links for review and grading submission
-[Github Repository Link](https://github.com/jscobie/TechTalk-Blog)<br>
+[Github Repository Link](https://github.com/jscobie/TechBlogMVC)<br>
 [Deployed Website Application (Heroku deployment)](https://google.com)
 
 ## Table of Contents
@@ -45,9 +45,9 @@ DB_PASSWORD=''
 ```
 **5. You will need to seed the database:**
 ```
-node /seeds/seed.js
+npm run seed
 ```
-**6. Finally to start the Employee Tracker you need the command:**
+**6. Finally to start node server you need to type the following command:**
 ```
 npm start
 ```
@@ -76,7 +76,12 @@ Credit to the MSU Bootcamp and instructors for training and training materials t
 [express-handlebars](https://www.npmjs.com/package/express-handlebars)<br>
 [bcrypt](https://www.npmjs.com/package/bcrypt)<br>
 [express-session](https://www.npmjs.com/package/express-session)<br>
-[connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize)
+[connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize)<br>
+[path](https://www.npmjs.com/package/path)<br>
+[Eslint](https://www.npmjs.com/package/eslint)<br>
+[prettier](https://www.npmjs.com/package/prettier)<br>
+[Heroku](https://www.heroku.com/)<br>
+[JawsDB MySQL](https://devcenter.heroku.com/articles/jawsdb)
 
 ## Questions:
 *Use the following options to contact me for questions:*<br>
