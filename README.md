@@ -9,7 +9,7 @@ This project was built to demonstrate an application built using the entire MVC 
 
 ### Required links for review and grading submission
 [Github Repository Link](https://github.com/jscobie/TechBlogMVC)<br>
-[Deployed Website Application (Heroku deployment)](https://google.com)
+[Deployed Website Application (Heroku deployment)](https://warm-shore-33539.herokuapp.com/)
 
 ## Table of Contents
 
@@ -62,7 +62,7 @@ Read more about [MIT license](https://opensource.org/licenses/MIT).
 
 ## Tests
 
-N/A
+Grading tests can either build their own user/content using the Sign Up option, alternatively the existing users with posts (Erlich, Richard, BigHead, and Gilfoyle) share the current password of: password
 
 ## Credits
 
