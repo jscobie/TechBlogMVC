@@ -10,6 +10,7 @@ This project was built to demonstrate an application built using the entire MVC 
 ### Required links for review and grading submission
 [Github Repository Link](https://github.com/jscobie/TechBlogMVC)<br>
 [Deployed Website Application (Heroku deployment)](https://warm-shore-33539.herokuapp.com/)
+[Walkthrough video of all functions working in the Heroku deployment](https://drive.google.com/file/d/17PyOQdyCGDMOmc5Rplk9YAIA51g2lZog/view)
 
 ## Table of Contents
 
